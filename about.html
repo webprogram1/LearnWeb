@@ -1,0 +1,70 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Introduction</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 50px;
+            background-color: #333;
+		}
+		h1 {
+			color: #000;
+			text-align: center;
+		}
+		p {
+			color: #666;
+			line-height: 1.5;
+		}
+		ul {
+			list-style-type: none;
+			padding: 0;
+		}
+		li {
+			margin-bottom: 10px;
+            color: #666;
+		}
+        img {
+			border-radius: 50%;
+			max-width: 200px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+    <audio id="sound" src="my.mp3"></audio>
+
+    <img id="my-img" src="images/footer-img.png" alt="basem halaika" onclick="playSound()">
+	<h1>Hello, I'm Basem</h1>
+	<p><b>I am a software engineer. I currently work in the field of front-ends, designing websites and Android applications. I have knowledge of back-ends, but in the future I want to delve into it more.</b></p>
+	<h2>What programming languages ​​do I know?</h2>
+	<ul>
+        <b>
+		<li> <u>Python</u>: I master it efficiently and have high skill in it</li>
+        
+		<li> <u>c++</u>: Through it , I learned the basics of programming, and I have some knowledge in it, but I did not delve</li>
+		<li><u>HTML</u>: I have great skill and talent in writing web pages in this language</li>
+        <li> <u>CSS</u>: I have a talent for it, like HTML, because I learned both languages together</li>
+		<li>  <u>JavaScript</u>: I have a great understanding of the language and in using some frameworks for working with it,
+            such as Node.js</li>
+		<li><u>MySQL</u>: A simple language that I learned in order to write in databases</li>
+        <li> <u>React</u>: I have good skills in this framework and I can improve further in the future</li>
+		<li><u>Ruby</u>: An easy language similar to Python. I learned it for web security, and I have great skill in it</li>
+		<li><u>Node.js</u>: A framework I learned to design web pages to become more interactive using JavaScript.</li>
+        </b> 
+    </ul>
+	<h2>Contact Information</h2>
+	<p>Email: <a href="mailto:basmhalaika@gmail.com">basmhalaika@gmail.com</a></p>
+	
+	<p>Website: <a href="https://www.facebook.com/halaikabasm/">https://www.facebook.com/halaikabasm/</a></p>
+    <script>
+        function playSound() {
+            var sound = document.getElementById('sound');
+            sound.play();
+        }
+        </script>
+</body>
+</html>
